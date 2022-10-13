@@ -1,0 +1,70 @@
+/* === RESET === */
+*{
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* === BODY === */
+body{
+  background: url("./images/bg-mobile.svg") no-repeat, #674bb1;
+}
+
+/* === MAIN === */
+main{
+  width: 90%;
+  /* margin-top: 40px; */
+  margin: auto;
+}
+/* === HERO === */
+img{
+  width: 95%;
+  margin-top: 100px;
+}
+
+/* === INFO === */
+.info__conterinet{
+  text-align: center;
+}
+.info__title{
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.info__para{
+  color: #ddddff;
+}
+
+/* === BUTTON === */
+button{
+  background: #fff;
+  border-radius: 20px;
+  color: #665599;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  padding: 10px;
+  width: 150px;
+}
+button:hover{
+  cursor: pointer;
+}
+/* === REDES FOOTER === */
+.redes__conteiner{
+  margin: auto;
+}
+.redes__display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redes__item{
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-left: 15px;
+  padding: 5px;
+}
